@@ -1,0 +1,83 @@
+/* change of some background-colors to enhance ui/ux */
+
+/*get rid of pyamas blue*/
+#wrapper {
+	background-color: var(--white);
+}
+
+/* have author at least see where to put the title when authoring some content..*/
+.title-alias label {
+	font-weight: bold;
+}
+#jform_title {
+	font-weight: 800;
+}
+/*do something about the space consumption of options and settings..*/
+.control-group {
+	margin: 0 0 0.1rem;
+}
+.options-form {
+	margin-bottom: 0.1rem;
+	padding: 1vw 1vw;
+}
+legend {
+	margin-bottom: 0rem;
+}
+/*bring back options list logic by having these in one column.*/
+.column-count-md-2, .column-count-lg-3 {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+}
+.custom-select {
+	max-width: 400px;
+}
+[class*=" column-"]>div, [class^=column-]>div {
+	display: flex;
+	flex-direction: row;
+}
+[class*=" column-"]>div .control-label, [class^=column-]>div .control-label {
+	width: 240px;
+}
+
+/* zoom the lot to not go entirely nuts on DUPLO blocks */
+@media (min-width:992px) {
+
+	/* zoom the lot to not go entirely nuts on DUPLO blocks */
+	html {
+    	zoom: 80%;
+	}
+	/*modules list*/
+	.new-modules .card-columns {
+    	grid-template-columns: 1fr;
+	}
+	.new-modules .card {
+    	flex-direction: row;
+	}
+	.new-modules .card :nth-child(1) { 
+   		order: 1; 
+	}
+	.new-modules .card :nth-child(2) { 
+    	order: 3; 
+	}
+	.new-modules .card :nth-child(3) { 
+    	order: 2; 
+	}
+	.new-modules .card .btn {
+		width: auto;
+	}
+	.new-modules .card div {
+		flex-basis: 20%;
+	}
+	.new-modules .card, .new-modules .card:hover {
+		box-shadow: none !important;
+		margin-bottom: 0 !important;
+	}
+	.btn-primary {
+		border-color: var(--atum-text-light);
+	}
+}
+
+
+
+
