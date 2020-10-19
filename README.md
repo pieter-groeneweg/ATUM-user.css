@@ -14,3 +14,5 @@ The user.css is created to the taste of members in my current user base of teams
 Since J! 4 is béta, this is not a final and finished project. There may still be features and stuff not being taken into account.
 
 And again: This is only styling of existing core J!4 features.
+
+Save it, make your changes and additions and drop it in /administrator/templates/atum/css/ folder
