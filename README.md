@@ -17,9 +17,9 @@ And again: This is only styling of existing core J!4 features.
 
 Save it, make your changes and additions and drop it in /administrator/templates/atum/css/ folder
 
-zooms to 80% on desktop
-changes new module tiles into list on desktop
-changes column behaviour of options and settings in items/articles/categories and on
-reduces space consumption of options/settings in items/articles/categories and on
+- zooms to 80% on desktop
+- changes new module tiles into list on desktop
+- changes column behaviour of options and settings in items/articles/categories and on
+- reduces space consumption of options/settings in items/articles/categories and on
 
 it is never finished...... ;)
