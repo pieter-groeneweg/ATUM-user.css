@@ -40,12 +40,20 @@ legend {
 	width: 240px;
 }
 
-/* zoom the lot to not go entirely nuts on DUPLO blocks */
+/* all for the big(ger) screens */
 @media (min-width:992px) {
 
 	/* zoom the lot to not go entirely nuts on DUPLO blocks */
 	html {
-    	zoom: 80%;
+    	transform: scale(0.8);
+      	transform-origin: 0 0;
+      	width: 125%;
+	}
+	/* correct mouse pointer mayhem in the code editor in "templates" */
+	fieldset.options-form {
+    	transform: scale(1.25);
+    	transform-origin: 0 0;
+		width: 80%;
 	}
 	/*modules list*/
 	.new-modules .card-columns {
