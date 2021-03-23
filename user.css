@@ -7,7 +7,7 @@
 
 /* have author at least see where to put the title when authoring some content..*/
 .title-alias label {
-	font-weight: 800;
+	font-weight: bold;
 }
 #jform_title {
 	font-weight: 800;
@@ -40,7 +40,7 @@ legend {
 	width: 240px;
 }
 
-/* all for the big(ger) screens */
+/* zoom the lot to not go entirely nuts on DUPLO blocks */
 @media (min-width:992px) {
 
 	/* zoom the lot to not go entirely nuts on DUPLO blocks */
@@ -49,8 +49,8 @@ legend {
       	transform-origin: 0 0;
       	width: 125%;
 	}
-	/* correct mouse pointer mayhem in the code editor in "templates" */
-	fieldset.options-form {
+	/* correct mouse pointer mayhem in the code editor in "templates" - do not touch other forms hence the complex set of selectors*/
+	.com_templates.view-template section#editor fieldset.options-form {
     	transform: scale(1.25);
     	transform-origin: 0 0;
 		width: 80%;
@@ -85,7 +85,3 @@ legend {
 		border-color: var(--atum-text-light);
 	}
 }
-
-
-
-
