@@ -15,7 +15,7 @@ Since J! 4 is béta, this is not a final and finished project. There may still b
 
 And again: This is only styling of existing core J!4 features.
 
-Save it, make your changes and additions and drop it in /administrator/templates/atum/css/ folder
+Save it, make your changes and additions and drop it in /media/templates/administrator/atum/css/ folder
 
 - zooms to 80% on desktop
 - changes new module tiles into list on desktop
