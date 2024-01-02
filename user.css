@@ -16,7 +16,7 @@
 .control-group {
 	margin: 0 0 0.1rem;
 }
-.options-form {
+#editor .options-form {
 	margin-bottom: 0.1rem;
 	padding: 1vw 1vw;
   	position: relative;
