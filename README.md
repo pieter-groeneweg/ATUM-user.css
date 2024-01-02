@@ -1,7 +1,7 @@
 # ATUM-user.css
-css overrides to Joomla! 4 ATUM template 
+css overrides to Joomla! 4 and 5 ATUM template 
 
-Joomla! 4 comes with default admin template ATUM.
+Joomla! 4 and 5 come with default admin template ATUM.
 This template is working nicely on portable platforms such as tablets and bigger smartphones.
 On a 22"plus size screen it is not.
 
@@ -13,7 +13,7 @@ The user.css is created to the taste of members in my current user base of teams
 
 Since J! 4 is béta, this is not a final and finished project. There may still be features and stuff not being taken into account.
 
-And again: This is only styling of existing core J!4 features.
+And again: This is only styling of existing core J!4 and 5 features.
 
 Save it, make your changes and additions and drop it in /media/templates/administrator/atum/css/ folder
 
